@@ -11,4 +11,3 @@ This template should help get you started developing with Vue 3 and TypeScript i
 ## based on
 
 - [Build a Todo List App in Vue JS with LocalStorage in 2022 | Vue 3 for Beginners](https://www.youtube.com/watch?v=qhjxAP1hFuI)
-"# vue-todo-list" 

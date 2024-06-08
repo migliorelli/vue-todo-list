@@ -1,0 +1,64 @@
+:root {
+  --primary: #818cf8;
+  --business: #6ee7b7;
+  --personal: #fde047;
+  --light: #eee;
+  --grey: #888;
+  --dark: #313154;
+  --danger: #fb7185;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  --primary-glow: 0px 0px 4px rgb(129, 140, 248, 0.75);
+  --business-glow: 0px 0px 4px rgb(110, 231, 183, 0.75);
+  --personal-glow: 0px 0px 4px rgb(253, 224, 71, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: initial;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5em;
+}
+
+h3 {
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+}
